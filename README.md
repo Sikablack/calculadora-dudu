@@ -12,6 +12,7 @@ Este projeto implementa uma calculadora científica de números complexos em Nod
 O programa é executado via linha de comando (CLI) e não possui interface web.
 
 ⚙️ Funcionalidades
+
 ✅ Representação de números complexos no formato a + bi
 ✅ Operações matemáticas:
   - Soma, subtração, multiplicação e divisão
@@ -26,12 +27,14 @@ O programa é executado via linha de comando (CLI) e não possui interface web.
   - Divisão por zero
 
 🧰 Tecnologias Utilizadas
+
 - Node.js (CLI)
 - JavaScript (ES6)
 - Módulo readline para interação no terminal
 - (O express aparece nas dependências, mas não é utilizado neste código)
 
 🚀 Como Executar
+
 1️⃣ Pré-requisitos: Node.js versão 18 ou superior.
 2️⃣ Instalar dependências:
 •	npm install
@@ -44,7 +47,8 @@ Exemplo 2: (a+b)*conj(c) → Árvore (LISP): (* (+ a b) (conj c))
 Exemplo 3: (a+b)**2 e a**2 + 2*a*b + b**2 → equivalentes
 
 🧩 Estrutura do Projeto
-calculadora-dudu/
+
+calculadora/
 ├── complex_calc.js          # Código principal da calculadora
 ├── package.json             # Metadados do projeto e dependências
 ├── package-lock.json        # Lockfile do npm
